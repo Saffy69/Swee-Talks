@@ -16,7 +16,7 @@ const App = () => {
       userName={localStorage.getItem('username')}
       userSecret={localStorage.getItem('password')}
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
-      onNewMessage={() => new Audio('../sounds/Anya Notification ! Notification.mp3').play()}
+      onNewMessage={() => new Audio('./sounds/chi-chi-anya.mp3').play()}
     />
   );
 };
